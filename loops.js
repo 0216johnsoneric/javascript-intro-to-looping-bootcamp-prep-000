@@ -10,17 +10,17 @@ function forLoop(array) {
   return array;
 }
 
-function whileLoop(n) {
+function whileLoop(n){
   while (n > 0) {
-    console.log(--n);
+    console.log(--n)
   }
-  return ('done')
+  return('done')
 }
 
-function doWhileLoop(array){
+function doWhileLoop(array);
   do {
     console.log(--array.length);
+    }
+    while (array.lenth > 0);
+    return array
   }
-  while (array.lenth > 0);
-  return array
-}
